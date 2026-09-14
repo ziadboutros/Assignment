@@ -12,57 +12,82 @@
         <h1>About Me</h1>
 
         <nav>
+            <a href="#intro">Introduction</a>
             <a href="#about">About</a>
             <a href="#hobbies">Hobbies</a>
+            <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <main>
 
-        <h2 id="about">Who am I?</h2>
+        <section id="intro">
+            <h2>Introduction</h2>
 
-        <img src="BOXINGG.jpeg" alt="Ziad Boutros boxing" >
-        <div class ="abou-ziz">
-        <p>
-            Hello my name is Ziad Boutros. I am 20 years old and currently
-            studying Computer and Communication Engineering at Saint Joseph
-            University of Beirut, specializing in Artificial Intelligence.
-        </p>
+            <p>
+                Hi, I'm Ziad Boutros, a Computer and Communication Engineering
+                student with a strong interest in technology and Artificial Intelligence.
+            </p>
+        </section>
 
-        <p>
-            I am interested in programming and technology. I also like
-            learning new things and working on different projects.
-        </p>
-        </div>
-        <h2 id="hobbies">My Hobbies</h2>
+        <section id="about">
+            <h2>About Me</h2>
 
-        <p class="x">
-            In my free time I like watching football,swimming and playing chess. 
-        </p>
+            <img src="BOXINGG.jpeg" alt="Ziad Boutros boxing">
 
-        <h2 id="contact">Contact Me</h2>
+            <div class="abou-ziz">
+                <p>
+                    I am 20 years old and interested in technology, programming,
+                    and learning new things. I enjoy working on different projects
+                    and developing my knowledge in the field of engineering and
+                    artificial intelligence.
+                </p>
+            </div>
+        </section>
 
-        <form>
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
 
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <p class="x">
+                In my free time I like watching football, swimming and playing chess.
+            </p>
+        </section>
 
-            <br>
+        <section id="skills">
+            <h2>My Skills</h2>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <p>
+                My skills include HTML, CSS, C++, Java, and basic knowledge of Python.
+                I am also developing my problem-solving and programming skills through
+                university projects and assignments.
+            </p>
+        </section>
 
-            <br>
+        <section id="contact">
+            <h2>Contact Me</h2>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+            <form>
 
-            <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-            <button type="submit">Send</button>
+                <br>
 
-        </form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <br>
+
+                <button type="submit">Send</button>
+
+            </form>
+        </section>
 
     </main>
 
